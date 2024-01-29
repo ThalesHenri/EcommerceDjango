@@ -1,5 +1,5 @@
 *{
-    font-family: 'Consolas', sans-serif;
+    font-family: 'Inika', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -24,8 +24,9 @@
     color: var(--secondary_color);
 }
 #page_body .home_baner{
-    background-color: red;
-    height: 500px;
+    background-image: url(img/homeBanner);
+    background-size: auto;
+    height:800px;
     margin-left: 7%;
     margin-right: 7%;
 
@@ -34,11 +35,44 @@
     text-align: center;
     margin-top: 100px;
 }
+.product_container{
+    height: 500px;
+    margin-left: 7%;
+    margin-right: 7%;
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    gap: 5%;
+}
+.product_container .product_box{
+    background-color: whitesmoke;
+    border: solid 2px var(--main_color);
+    border-radius: 5%;
+}
 
+.product_box .product_img{
+    width: 270px;
+    margin-left: 12%;
+    margin-top: 8%;
+}
+.colection{
+    margin-left: 12%;
+}
+.product_box h1{
+    margin-left: 12%;
+}
+.product_box h2{
+    margin-left: 12%;
+}
+.product_box h3{
+    margin-left: 12%;
+}
+.product_box h4{
+    margin-left: 12%;
+}
 
 /* 
 To Do List:
-1- Alterar a fonte do Site
+1- Alterar a fonte do Site (V)
 2- Arrumar Imagens de alguns produtos
 3- Carrosel com 3 produtos
 4- Ícones 
